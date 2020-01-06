@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header-tic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tic-tac-toe {
+  width: 450px;
+  height: 450px;
+  border: 2px solid black;
+  margin: 50px auto;
+}
+
+.ttt-grid {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  float: left;
+  box-sizing: border-box;
+  font-size: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.downContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
